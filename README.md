@@ -27,19 +27,40 @@
 
 ## 🎯 Le projet
 
-**FindMe** est une startup qui propose des **traceurs intelligents** pour ne plus perdre ses objets : clés, sacs, valises, véhicules et même animaux de compagnie.
-
 > « Anticipez la perte, protégez vos objets dès aujourd'hui ! »
 
-Le site présente l'entreprise et permet de **découvrir les produits, de les comparer et de les ajouter à un panier**.
+**FindMe** est un projet de startup réalisé dans le cadre du module universitaire **« Créer et Développer une Startup »** (Département d'Informatique, Université Mouloud Mammeri de Tizi-Ouzou, 2024-2025).
 
-## ✨ Fonctionnalités
+L'idée : aider les particuliers et les professionnels à **localiser leurs objets** (clés, sacs, bijoux, valises, véhicules, colis, animaux de compagnie…) et réduire le stress lié à la perte ou au vol.
 
-- **Catalogue de produits** : porte-clés Bluetooth, tracker GPS (voiture, animaux, valise), étiquettes RFID, étiquettes QR code, bracelets, cartes RFID
+**Vision :** devenir la référence algérienne, puis maghrébine, du suivi d'objets personnels et professionnels.
+
+### 🔧 Trois technologies complémentaires
+
+| Technologie | Usage | Exemples de produits |
+|---|---|---|
+| **Bluetooth Low Energy** | Localisation à courte portée (jusqu'à 100 m), buzzer pour faire sonner l'objet | Porte-clés, étiquettes, bracelets |
+| **GPS + GSM/4G** | Suivi en temps réel partout dans le monde, historique des trajets, alertes de sortie de zone | Trackers pour voiture, valise, animaux |
+| **RFID** | Identification sans batterie dans les lieux équipés de lecteurs (entrepôts, hôtels, événements) | Étiquettes, cartes, bracelets RFID |
+
+### 💡 Services imaginés autour des produits
+
+- **Partage de la localisation** avec ses proches ou son équipe (jusqu'à 6 personnes)
+- **Abonnements** : gratuit, Standard, Premium et Famille / Équipe
+- **Assurance « ObjetSûr »** : remboursement ou remplacement en cas de perte ou de vol
+- **Solutions pour les entreprises** : suivi de colis, de flottes de livraison et d'équipements
+- **Application mobile** (maquette) : liste de ses objets, scan de QR code, boutique, historique de localisation et bouton « Sonner »
+
+## ✨ Le site web
+
+Ce dépôt contient le **site vitrine et la boutique en ligne** de FindMe :
+
+- **Catalogue de produits** : porte-clés Bluetooth, trackers GPS (voiture, animaux, valise), étiquettes RFID et QR code, bracelets, cartes RFID
 - **Fiche détaillée** de chaque produit, dans une fenêtre : description, avantages, prix
 - **Packs spéciaux** : Starter, Mobilité et Pro, avec le détail de leur contenu
 - **Panier** : ajout de produits et calcul automatique du total, en JavaScript
-- **Barre de recherche** et menu de navigation
+- Section **« Partagez vos trackers avec votre cercle »**, qui présente la géolocalisation partagée
+- **Barre de recherche**, menu de navigation et pied de page avec contact et services
 - Design moderne et **responsive** (ordinateur, tablette, mobile)
 
 ## 🏗️ Structure
@@ -69,7 +90,7 @@ Aucune installation n'est nécessaire :
 - **En ligne :** [melissameziani.github.io/FindMe](https://melissameziani.github.io/FindMe/)
 - **En local :** téléchargez le projet (bouton **Code**, puis **Download ZIP**) et ouvrez `index.html` dans votre navigateur.
 
-## 👩‍💻 Autrice
+## 📫 Contact
 
 **Melissa MEZIANI** — Développeuse web full stack
 [GitHub](https://github.com/melissameziani) · [LinkedIn](https://www.linkedin.com/in/melissa-meziani-b0ba4b299) · [mezianimelissa37@gmail.com](mailto:mezianimelissa37@gmail.com)
