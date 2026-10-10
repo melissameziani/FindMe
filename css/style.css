@@ -159,7 +159,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 20px; /* Espace entre le h1 et le bouton */
-    background-image: url('/img/fondheader.png');
+    background-image: url('../img/fondheader.png');
     background-size: cover; /* Couvre tout l'espace disponible */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Évite la répétition de l'image */
